@@ -1,0 +1,9 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>mono-mvc-raw\mono-mvc-raw.sln</Item>
+    <Item>mono-mvc-dapper\mono-mvc-dapper.sln</Item>
+    <Item>mono-mvc-nhibernate\mono-mvc-nhibernate.sln</Item>
+    <Item>mono-servicestack\mono-servicestack.sln</Item>
+    <Item>mono-httphandler\mono-httphandler.sln</Item>
+  </Items>
+</WorkspaceItem>
