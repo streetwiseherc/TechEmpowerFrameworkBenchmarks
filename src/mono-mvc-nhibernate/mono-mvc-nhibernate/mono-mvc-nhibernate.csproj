@@ -48,17 +48,17 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Configuration" />
-    <Reference Include="Iesi.Collections">
-      <HintPath>D:\Save\Code\ASP.NET MVC\SocialNews\lib\Iesi.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>D:\Save\Code\ASP.NET MVC\SocialNews\lib\NHibernate.dll</HintPath>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\lib\MySQL\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="FluentNHibernate">
-      <HintPath>D:\Save\Code\ASP.NET MVC\SocialNews\lib\FluentNHibernate.dll</HintPath>
+      <HintPath>..\..\..\lib\Nhibernate\FluentNHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\MySQL\MySQL Connector Net 6.6.5\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\..\lib\Nhibernate\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\lib\Nhibernate\NHibernate.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

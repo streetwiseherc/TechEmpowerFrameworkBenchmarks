@@ -34,32 +34,35 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Web.Services" />
-    <Reference Include="ServiceStack.Common">
-      <HintPath>..\..\..\..\Visual Studio 11\Projects\ServiceStack.Hello\ServiceStack.Hello\bin\ServiceStack.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack">
-      <HintPath>..\..\..\..\Visual Studio 11\Projects\ServiceStack.Hello\ServiceStack.Hello\bin\ServiceStack.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.Interfaces">
-      <HintPath>..\..\..\..\Visual Studio 11\Projects\ServiceStack.Hello\ServiceStack.Hello\bin\ServiceStack.Interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.OrmLite">
-      <HintPath>..\..\..\..\Visual Studio 11\Projects\ServiceStack.Hello\ServiceStack.Hello\bin\ServiceStack.OrmLite.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.Text">
-      <HintPath>..\..\..\..\Visual Studio 11\Projects\ServiceStack.Hello\ServiceStack.Hello\bin\ServiceStack.Text.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.ServiceInterface">
-      <HintPath>..\..\..\..\Visual Studio 11\Projects\ServiceStack.Hello\ServiceStack.Hello\bin\ServiceStack.ServiceInterface.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\MySQL\MySQL Connector Net 6.6.5\Assemblies\v4.0\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.OrmLite.MySql">
-      <HintPath>..\..\..\..\Visual Studio 11\Projects\ServiceStack.Hello\ServiceStack.Hello\bin\ServiceStack.OrmLite.MySql.dll</HintPath>
-    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Configuration" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\lib\MySQL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack">
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite">
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.MySql">
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.OrmLite.MySql.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface">
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.Text.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

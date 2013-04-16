@@ -36,16 +36,16 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\MySQL\MySQL Connector Net 6.6.5\Assemblies\v4.0\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\Downloads\Json50r2\Bin\Net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\lib\MySQL\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Text">
-      <HintPath>..\..\mono-servicestack\mono-servicestack\bin\ServiceStack.Text.dll</HintPath>
+      <HintPath>..\..\..\lib\ServiceStack\ServiceStack.Text.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Extensions" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\lib\Newtonsoft\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

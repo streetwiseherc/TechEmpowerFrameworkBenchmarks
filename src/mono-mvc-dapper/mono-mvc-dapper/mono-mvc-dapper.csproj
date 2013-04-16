@@ -50,7 +50,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Configuration" />
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\MySQL\MySQL Connector Net 6.6.5\Assemblies\v4.0\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\lib\MySQL\MySql.Data.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
