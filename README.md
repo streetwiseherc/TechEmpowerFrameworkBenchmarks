@@ -3,7 +3,7 @@
 
 Additional web frameworks for the TechEmpower Framework Benchmarks, which are located here: https://github.com/TechEmpower/FrameworkBenchmarks
 
-So I have replicated the /json and /db services for a few of the popular ASP.NET options for creating JSON services.
+Initially, I am focused on adding .NET/C# based web frameworks. The benchmarks are running on a Linux server so Mono is being used, but the source code should compile and run on Windows also.
 
 ##Frameworks (with database access variants)
 1. mono-httphandler
